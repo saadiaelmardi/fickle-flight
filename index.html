@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+    <title>Document</title>
+</head>
+<body>
+   <header >
+    <div class="flex justify-between items-center" >
+        <img src="img/symbols.svg" alt="">
+<div class="flex justify-end items-center gap-2">
+<nav class="text-xl  flex gap-5">
+    <a class="text-blue-500" href="#">Explore</a>
+    <a href="#"> Search</a>
+ <a href="#"> Hotels</a>
+  <a href="#">Offers</a>
+</nav>
+<img src="img/notification1.svg" alt="">
+<span>
+    <img class="w-10 h-10" src="img/top_avatar@2x.png" alt="">
+</span>
+</div>
+</div>
+      </header> 
+      <section class="bg-[url(img/search-container@3x.png)] bg-center bg-cover bg-no-repeat flex justify-center items-center flex-col h-screen w-full">
+        <h1 class="text-white text-6xl font-bold mb-5">
+            let's explore & travel the world
+        </h1>
+        <p class="text-2xl text-white mb-4 ">Find the best destinations and the most popular stays!</p>
+        <div  class="h-40 w-4/5 border-2 rounded-xl bg-white mt-10  ">
+            <div class="flex  justify-around  items-center pt-5 ">
+                <h2 class="text-xl text-zinc-700 uppercase font-bold ">search flight</h2>
+                <div class="flex gap-6 ">
+                <label class="text-zinc-600" for="return">return</label>
+                <input type="radio" name="one way" id="one way">
+                <label class="text-zinc-600"for="one way">one way</label>
+                <input type="radio" name="one way" id="one way">
+                </div>
+            </div>
+            <div class="flex justify-center items-center gap-8 mt-4 ">
+                <form class="flex gap-5" >
+                <input  class="border-1 p-6 rounded-md border-gray-500 w-60 "  type="text" placeholder="Departure">
+                <input class="border-1 p-6 rounded-md border-gray-500 w-60  "   type="text" placeholder="Arrival">
+                <input  class="border-1 p-6 rounded-md border-gray-500 w-60 "  type="date" placeholder="Date">
+                 </form>
+                <button class="border-1 p-6 bg-amber-500 uppercase text-white text-md text-bold
+                rounded-md "     >search flight</button>
+            </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="mt-20">
+        <h1 class="uppercase ml-45 font-bold "> recent searches</h1>
+        <div class="flex justify-center items-center gap-5">
+        <div class="border-1 rounded-md border-zinc-400 px-40 py-4 ">
+            <div class="flex justify-between items-center gap-20 text-indigo-800  font-bold uppercase">
+        <h2> sin</h2>
+        <span><img src="img/flighticon.svg" alt=""></span>
+         <h2> lax</h2>
+         </div>
+         <p>
+          <span class="font-bold ">Depart on</span>:7 sep 2021
+        </p>
+        </div >
+        <div class="border-1 rounded-md border-zinc-400 px-40 py-4  ">
+            <div class="flex justify-between items-center gap-20 text-indigo-800  font-bold uppercase">
+            <h1>my</h1>
+            <span><img src="img/flighticon.svg" alt=""></span>
+            <h2>Dub</h2>
+            </div>
+            <p> <span class="font-bold">Depart on</span> :9 sep 2021</p>
+        </div>
+        </div>
+    </div>
+    <div class=" mt-20 ml-20">
+    <h1 class="text-stone-500 pb-10">prepare for your trip</h1>
+    <div class="flex gap-20">
+      <div>  
+<img src="img/hotel-icon.svg" alt="">
+<h1 class="text-stone-500">Hotel</h1>
+</div>
+<div>
+    <img src="img/eats-icon.svg" alt="">
+    <h1 class="text-stone-500">Eats</h1>
+</div>
+    </div>
+</div>
+      </section>
+      <section>
+        <div class="mt-30">
+            <div class="px-30 mb-10">
+        <h3 class="text-blue-800 uppercase font-bold ">plan your next trip</h3>
+        <div class="flex justify-between items-center">
+        <h1 class="text-3xl font-bold">most popular Destinations</h1>
+        <div class="flex">
+        <span class="text-blue-700 font-bold">view all destinations</span>
+        <img src="img/arrowright2.svg" alt="">
+        </div>
+        </div>
+        </div>
+        <div class="flex justify-center items-center gap-5">
+            <div class="bg-[url(img/bg-image@2x.png)] bg-cover bg-center bg-no-repeat
+            w-65 h-40 rounded-md flex justify-between ">
+                <h2 class="text-white">paris</h2>
+                <div class="flex flex-col">
+                <p class="uppercase text-white">from</p>
+                <span class="font-bold text-white text-xl">$699</span>
+                </div>
+                 </div>
+                 <div class="bg-[url(img/bg-image1@2x.png)] bg-cover bg-center bg-no-repeat
+            w-65 h-40 rounded-md flex justify-between ">
+                <h2 class="text-white">Greece</h2>
+                <div class="flex flex-col">
+                <p class="uppercase text-white">from</p>
+                <span class="font-bold text-white text-xl">$1079</span>
+                </div>
+            </div>
+             <div class="bg-[url(img/bg-image2@2x.png)] bg-cover bg-center bg-no-repeat
+            w-65 h-40 rounded-md flex justify-between ">
+                <h2 class="text-white">Norway</h2>
+                <div class="flex flex-col">
+                <p class="uppercase text-white">from</p>
+                <span class="font-bold text-white text-xl">$895</span>
+                </div>
+            </div>
+             <div class="bg-[url(img/bg-image3@2x.png)] bg-cover bg-center bg-no-repeat
+            w-65 h-40 rounded-md flex justify-between ">
+                <h2 class="text-white">Tuscany</h2>
+                <div class="flex flex-col">
+                <p class="uppercase text-white">from</p>
+                <span class="font-bold text-white text-xl">$1245</span>
+                </div>
+            </div>
+
+</div>
+<div class="mt-20">
+    <div class="flex justify-between items-center ">
+    <h1 class="text-3xl font-bold px-30 ">recomanded holidays</h1>
+    <div class="flex">
+    <span class="text-blue-800 font-bold">view all holidays</span>
+    <span><img src="img/arrowright2.svg" alt=""></span>
+    </div>
+    </div>
+    <div class="flex justify-center items-center gap-5 mt-10">
+<div class="w-65 h-55 border-1 rounded-md " >
+    
+    <img class="w-65 h-40 " src="img/unsplash5mv818tzxeo@2x.png " alt="">
+    <div class="flex justify-between items-center">
+    <div class="flex flex-col ml-2">
+    <span class="font-bold">Bali</span>
+    <span class="text-stone-400">4D3N</span>
+    </div>
+    <span class="text-blue-800 text-2xl font-bold">$899</span>
+    </div>
+</div>
+<div class="w-65 h-55 border-1 rounded-md " >
+    
+    <img class="w-65 h-40" src="img/switzerlandimage@2x.png " alt="">
+    <div class="flex justify-between items-center">
+    <div class="flex flex-col ml-2">
+    <span class="font-bold">Swiss</span>
+    <span class="text-stone-400">6D5N</span>
+    </div>
+    <span class="text-blue-800 text-2xl font-bold">$900</span>
+    </div>
+</div>
+<div class="w-65 h-55 border-1 rounded-md " >
+    
+    <img class="w-65 h-40" src="img/boracayimage@2x.png " alt="">
+    <div class="flex justify-between items-center">
+    <div class="flex flex-col ml-2">
+    <span class="font-bold">Boracay</span>
+    <span class="text-stone-400">5D4N</span>
+    </div>
+    <span class="text-blue-800 text-2xl font-bold">$699</span>
+    </div>
+</div>
+
+<div class="w-65 h-55 border-1 rounded-md " >
+    
+    <img class="w-65 h-40" src="img/palawanimage@2x.png " alt="">
+    <div class="flex justify-between items-center">
+    <div class="flex flex-col ml-2">
+    <span class="font-bold">Palawan</span>
+    <span class="text-stone-400">4D3N</span>
+    </div>
+    <span class="text-blue-800 text-2xl font-bold">$789</span>
+    </div>
+</div>
+
+       </div>
+       
+</div >
+<div class="mt-20">
+    <div class="flex justify-between items-center"> 
+       <h1 class="text-3xl font-bold ml-30 mb-4 ">Popular stays</h1>
+       <div class="flex">
+       <span class="text-blue-600 font-bold">view all stays</span>
+       <img src="img/arrowright2.svg" alt="">
+        </div>
+
+    </div>
+    <div class="flex justify-center items-center gap-5">
+        <div class="border-zinc-400 border-1 rounded-xl w-65 h-85 ">
+            <img  class="w-60 h-40 ml-3 mt-2" src="img/unsplashrlwe8f8anoc@2x.png" alt="">
+           <div class="ml-2">
+            <div class="flex justify-between">
+            <span class="text-stone-400">Entire bungalow</span>
+                        <img src="img/video.svg" alt=""></div>
+
+            <h1 class="font-bold text-xl">Matterhorn Suites</h1>
+            <span>$575/night</span>
+            <div class="flex ">
+            <img src="img/vector10.svg" alt="">
+            <span>4.9 <span class="text-blue-600"> (60 views) </span></span>
+          </div>
+         </div>
+            <button class="border-1 border-blue-400 text-blue-800 uppercase px-15
+            ml-6 mt-6 py-1">more details</button>
+        </div>
+        <div class="border-zinc-400 border-1 rounded-xl w-65 h-85 ">
+            <img class="w-60 h-40 ml-3 mt-2"  src="img/unsplashtsn8bpopveo@2x.png" alt="">
+           <div class="ml-2" >
+            <div class="flex justify-between">
+            <span class="text-stone-400">2-Story beachfront suite</span>
+                      <img src="img/video.svg" alt=""></div>
+
+            <h1 class="font-bold text-xl">Discovery shores</h1>
+            <span>$360/night</span>
+            <div class="flex">
+           <img src="img/vector10.svg" alt="">
+            <h3>4.8 <span class="text-blue-600"> (116 views) </span></div>
+           </div>
+            <button class="border-1 border-blue-400 text-blue-800 uppercase px-15 ml-6 mt-6 py-1">more details</button>
+        </div>
+<div class="border-zinc-400 border-1 rounded-xl w-65 h-85 ">
+            <img class="w-60 h-40 ml-3 mt-2"  src="img/unsplashrlwe8f8anoc1@2x.png" alt="">
+           <div class="ml-2">
+            <div class="flex justify-between"> 
+            <span class="text-stone-400">Single deluxe hut</span>
+             <img src="img/video.svg" alt=""></div>
+            <h1 class="font-bold text-xl">Arctic hut</h1>
+            <span>$420/night</span>
+            <div class="flex">
+             <img src="img/vector10.svg" alt="">
+
+            <h3>4.7 <span class="text-blue-600"> (78 views) </span></h3>
+            </div>
+           </div>
+            <button class="border-1 border-blue-400 text-blue-800 uppercase px-15
+            ml-6 mt-6 py-1">more details</button>
+        </div>
+        <div class="border-zinc-400 border-1 rounded-xl w-65 h-85 ">
+            <img class="w-60 h-40 ml-3 mt-2"  src="img/unsplashyqrybvxug5q@2x.png" alt="">
+           <div class="ml-2">
+            <div class="flex justify-between">
+            <span class="text-stone-400">Deluxe King Room</span>
+            <img src="img/video.svg" alt=""></div>
+            <h1 class="font-bold text-xl">Lake Louise Inn</h1>
+            <span>$244/night</span>
+            <div class="flex">
+             <img src="img/vector10.svg" alt="">
+
+            <h3>4.6<span class="text-blue-600"> (63 views) </span></h3>
+            </div>
+            <button class="border-1 border-blue-400 text-blue-800 uppercase px-15
+            mt-6 py-1 ">more details</button></div>
+        </div>
+
+
+    </div>
+</div>
+      </section>
+      <section class="mt-20">
+        <div class="flex justify-center items-center flex-col 
+        bg-[url(img/subscribe-section-background@2x.png)] bg-cover bg-center bg-no-repeat
+        ">
+        <div class="mt-30 mb-10">
+        <h2 class="text-blue-800 uppercase font-bold" >subscribe to our newseletter</h2>
+        <h1 class="text-2xl font-bold ">Get weekly updates</h1>
+        </div>
+        <div class="w-110 h-60 border-1 border-white flex justify-center rounded-md flex-col bg-white mb-10">
+        <h3 class="text-stone-600 ml-3 mb-3">Fill in your details to join the party</h3>
+
+        <form  class=" flex flex-col gap-2">
+<input class="border-1 border-zinc-400 rounded-md px-20 py-2 ml-3 mr-5 " type="text" placeholder="Your name">
+<input class="border-1 border-zinc-400 rounded-md px-20 py-2 ml-3 mr-5" type="email" name="" id="" placeholder="Email address">
+<input class="border-1 bg-orange-400 w-40 text-white ml-2 py-2 uppercase rounded-md" type="submit" value="submit">
+        </form>
+        </div>
+    </div>
+      </section>
+      <footer>
+        <div class="flex justify-between items-center bg-gradient-to-r from-indigo-800 via-blue-600 to-blue-500   text-white">
+            <div class="border-r-1 pl-5 pr-5"> <h1 class="text-2xl font-bold">ficklflight</h1>
+            <p >
+                fickle flight is your one-stop travel portal.We offer hassle free 
+                flight and hotel <br>bookings.We also have all your flight needs in you
+                online shop
+            </p>
+            
+            </div>
+           
+            <div class="pr-6"  >
+                <h1 class="text-2xl font-bold"> Company</h1>
+                <h2>about us</h2>
+               <h2>News</h2>
+               <h2>Careers</h2>
+               <h2>How we Work</h2>
+            </div>
+            <div>
+                <h1 class="text-2xl font-bold">Support</h1>
+                <h2>Account</h2>
+                <h2>Support center</h2>
+                <h2>FAQ</h2>
+                <h2>Accessibility</h2>
+            </div>
+            <div class="pr-6">
+                <h1 class="text-2xl font-bold" >More</h1>
+                <h2>Covid Advisory</h2>
+                <h2>Airline fees</h2>
+                <h2>Tips</h2>
+                <h2>Quarantine Rules</h2>
+            </div>
+        </div>
+       
+</div>
+
+
+
+
+      </footer>
+
+</body>
+</html>
